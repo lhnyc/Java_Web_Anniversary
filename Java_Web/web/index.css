@@ -152,7 +152,8 @@ footer nav a:hover{
 /*--------------------------------------------------------------Body------------------------------------------------------------------*/
 body{
     margin: 0;
-    background-color: #3d2e22;
+
+    /*background-color: #3d2e22;*/
 }
 .Pastor_remarks{
     background-color: whitesmoke;
@@ -180,7 +181,12 @@ body img{
     color: #3d2e22;
     padding: 3%;
 }
+.top_slide{
+    /*fixed center;*/
+    padding-top: 10px;
+}
 /*------------------------------------------------------------SLIDESHOW-----------------------------------------------------------*/
+.slideshow{}
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
 .mySlides {display: none;}
@@ -251,4 +257,32 @@ body img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
     .text {font-size: 11px}
+}
+
+/*----------------------------------------------------------------------EVENTS-----------------------------------------------------*/
+table {
+    color: white;
+    padding-left: 60px;
+}
+caption{
+    padding-bottom: 30px;
+}
+
+.events{
+    padding-top: 100px;
+}
+td{
+    border-top: 1px solid #fff;
+    padding-right: 50px;
+    padding-top: 40px;
+
+}
+
+/*------------------------------------------------------------PREFOOTER-----------------------------------------------------------------*/
+.prefooter{
+    background-color: white;
+}
+.facebook_icon{
+    width: 50px;
+    height: 50px;
 }

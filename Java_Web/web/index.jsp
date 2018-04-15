@@ -16,7 +16,8 @@
           content="Church, anniversary, church anniversary, lighthouse, LH">
     <meta name="Description"
           content="LightHouse Christian Outreach Center's first anniversary online presence project">
-    <title><img src="./Images/church_logo.ico" alt="logo" align="left"> Lighthouse 1st Anniversary</title>
+    <title>Lighthouse 1st Anniversary</title>
+    <link href="Images/church_logo%20.jpeg" rel="icon" type="image">
 </head>
 <header>
     <div class="container">
@@ -71,8 +72,9 @@
         </nav>
     </div>
 </header>
-
 <body>
+<div class ="top_slide" style="background: #3d2e22 fixed no-repeat; background-size: cover; box-sizing: border-box">
+<div class="slideshow">
 
 <!------------------------------------------------------------SLIDESHOW---------------------------------------------------------->
 <h1 style="color: white">Current Events</h1>
@@ -120,7 +122,8 @@
     <span class="dot"></span>
 
 </div>
-
+</div>
+</div>
 <script>
     var slideIndex = 0;
     showSlides();
@@ -169,9 +172,61 @@
         ac dis ultrices fringilla, egestas praesent montes laoreet tempor
         neque.</p>
 
-    </p>
+
+</div>
+<!-------------------------------------------------------EVENTS---------------------------------------------------------------------->
+<div class="events" style="background-color: #222">
+
+    <table>
+        <caption style="color: white; font-size: 200%">Weekly Events</caption>
+
+        <tbody>
+        <tr>
+            <td> </td>
+            <td> Day of the Week</td>
+            <td> Time</td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 18pt;">Sunday Service :</span></td>
+            <td><span style="font-size: 18pt;">Sundays</span></td>
+            <td><span style="font-size: 18pt;">10:00 am - 12:00 Noon</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 18pt;">Beautiful Exchange :</span></td>
+            <td><span style="font-size: 18pt;">Thursdays</span></td>
+            <td><span style="font-size: 18pt;">06:30 pm - 08:00 pm</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 18pt;">Leadership Training :</span></td>
+            <td><span style="font-size: 18pt;">1st &amp; 3rd Saturday of the month</span></td>
+            <td><span style="font-size: 18pt;">10:00 am - 12:00 Noon</span></td>
+        </tr>
+        <tr>
+            <td><span style="font-size: 18pt;">Night Vigil :</span></td>
+            <td><span style="font-size: 18pt;">2nd &amp; 4th Friday of the Month</span></td>
+            <td><span style="font-size: 18pt;">10:00 pm - 12:00 Midnight</span></td>
+        </tr>
+        <tr>
+            <td style="border-bottom: 1px solid #fff"><span style="font-size: 18pt;">Saturday Night Live ( Youth gathering ) : </span></td>
+            <td style="border-bottom: 1px solid #fff"><span style="font-size: 18pt;">Saturdays </span></td>
+            <td style="border-bottom: 1px solid #fff"><span style="font-size: 18pt;">05:00 pm - 07:00 pm</span></td>
+        </tr>
+        </tbody>
+    </table>
+    <p><span style="font-size: 18pt;">  <br /></span></p>
+    <p><span style="font-size: 18pt;">  <br /></span></p>
+    <p><span style="font-size: 18pt;">  <br /></span></p>
+    <p><span style="font-size: 18pt;">  <br /></span></p>
+    <p><span style="font-size: 18pt;"> </span></p>
+
+
+
 </div>
 
+<div class="prefooter">
+    <img src="Images/Facebook.ico" class="facebook_icon">
+
+</div>
 </body>
 
 
