@@ -57,7 +57,7 @@
             <ul>
                 <p>
                 <li> Countdown to Anniversary</li>
-                </p>
+            </p>
                 <li><span class="clock" id="days"></span></li>
                 <li><span class="clock" id="hours"></span></li>
                 <li><span class="clock" id="minutes"></span></li>
@@ -236,39 +236,39 @@
 
 </div>
 
-<div class="pre_footer">
-    <div class="img">
+<div class="pre_footer" style="margin: 0">
+    <div class="img" style="margin: 0">
     <h2 style="color: #3d2e22; float: top; padding-bottom: 15px">Contact Us:</h2>
     <ul>
-        <li>
+        <li class="pre_footer_img" >
             <a href="https://www.facebook.com/lighthouseny/"><img src="Images/facebook.ico" class="pre_footer_icon"></a>
         </li>
-        <li>
+        <li class="pre_footer_img">
             <a href="mailto:communications@lighthouseNY.org"><img src="Images/email.ico" class="pre_footer_icon"></a>
         </li>
-        <li><a href=""><img src="Images/phone.ico" class="pre_footer_icon"></a>
+        <li class="pre_footer_img" ><a href=""><img src="Images/phone.ico" class="pre_footer_icon"></a>
         </li>
-        <li><a href="https://google.com"><img src="Images/address.ico" class="pre_footer_icon"></a>
+        <li class="pre_footer_img" ><a href="https://google.com"><img src="Images/address.ico" class="pre_footer_icon"></a>
         </li>
     </ul>
     </div>
-    <div class="caption">
+    <div class="caption" style="margin: 0">
     <ul>
-        <li style="margin-right: 70px">
+        <li class="pre_footer_img" style=" margin-left: 0">
             <p style="font-family: Open Sans, sans-serif;font-weight: 600;font-style: normal;font-size: 21px;  text-transform: uppercase;">
                 Follow Us!</p></li>
-        <li style="margin: 0; padding:0"><p
+        <li class="pre_footer_img" style="padding:0"><p
                 style="font-family: Open Sans, sans-serif;font-weight: 600;font-style: normal;font-size: 21px;  width: 50%; text-transform: uppercase;">
             communications@ lighthouseNY.org
         </p></li>
-        <li style="margin-right: 0; margin-left: 0"><p
+        <li class="pre_footer_img"><p
                 style="text-transform: uppercase; font-family: Open Sans,sans-serif; font-size: 21px; font-style: normal; font-weight: 600;">
             |405-550-5135|
         </p>
             <p style="font-size: 14px;color: #444444;">Our Phone Number</p></li>
 
-        <li style="margin-right: 0; margin-left: 0">
-            <p style="text-transform: uppercase; font-family: Open Sans,sans-serif; font-size: 21px; font-style: normal; font-weight: 600; width: 60%">
+        <li class="pre_footer_img" style="padding:0">
+            <p style="text-transform: uppercase; font-family: Open Sans,sans-serif; font-size: 21px; font-style: normal; font-weight: 600;">
                 361 New Lots Ave. Brooklyn, NY 11207</p>
             <p> Our address</p></li>
     </ul>

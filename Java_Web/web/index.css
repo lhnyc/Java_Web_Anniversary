@@ -65,7 +65,7 @@ nav a:hover::before{
 }
 
 .clock{
-    padding: 5px;
+    padding: 10%;
     background: rgba(0,0,0,0.5);
     color:white;
     font-weight: bold;
@@ -364,48 +364,6 @@ td{
     padding: 15%;
 }
 
-#phone{
-    font-family: Open Sans,sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 21px;
-    margin: 28px 0px 14px;
-    text-transform: uppercase;
-}
-#email{
-    font-family: Open Sans,sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 21px;
-    margin: 28px 0px 14px;
-    text-transform: uppercase;
-}
-
-div.form fieldset div.field span.field-validation-error span {
-    background-color: #fae7ec;
-    display: block;
-    z-index: 10;
-    padding: 5px 10px;
-}
-div.form fieldset div.field span.field-validation-error {
-    font-family: "futura-pt-n4","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.4px;
-    display: block;
-    background-color: #fae7ec;
-    border: 2px solid #ce1948;
-    padding: 0;
-    z-index: 10;
-    max-width: 500px;
-    width: 80%;
-    position: absolute;
-    left: 20%;
-    bottom: 53px;
-    box-sizing: border-box;
-}
 
 .pre_footer_icon{
     width: 100px;
@@ -420,15 +378,22 @@ div.form fieldset div.field span.field-validation-error {
 
 .img li{
     display: inline-block;
-    margin-right: 160px;
+    margin-right: 40px;
     position: relative;
 }
 .caption li{
     display: inline-block;
     position: relative;
+    margin-right: 40px;
+    text-align: left;
+
 }
 
 .pre_footer img:hover{
     opacity: 0.5;
-    padding: 20%;
+    padding: 6%;
+}
+
+.pre_footer_img{
+    width: 20%;
 }
