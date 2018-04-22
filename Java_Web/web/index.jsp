@@ -17,7 +17,7 @@
     <meta name="Description"
           content="LightHouse Christian Outreach Center's first anniversary online presence project">
     <title>Lighthouse 1st Anniversary</title>
-    <link href="Images/church_logo%20.jpeg" rel="icon" type="image">
+    <link href="Images/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
 </head>
 <header>
     <div class="container">
@@ -73,56 +73,67 @@
     </div>
 </header>
 <body>
-<div class ="top_slide" style="background: #3d2e22 fixed no-repeat; background-size: cover; box-sizing: border-box">
-<div class="slideshow">
+<div class="top_slide"
+     style="background: /*#240707 #a47c4c */#0a243e fixed no-repeat; background-size: cover; box-sizing: border-box">
+    <div class="slideshow">
+        <h1 style="text-align: center; font-size: 70px; padding-bottom: 3%; color: white">Welcome to Lighthouse NY's 1ST
+            Anniversary Page!</h1>
 
-<!------------------------------------------------------------SLIDESHOW---------------------------------------------------------->
-<h1 style="color: white">Current Events</h1>
+        <!------------------------------------------------------------SLIDESHOW---------------------------------------------------------->
+        <!--  <h1 style="color: white">Current Events</h1>-->
 
-<div class="slideshow-container">
+        <div class="slideshow-container">
 
-    <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <img src="./Images/flyer1.JPG" style="width:100%; height: 100%">
-        <div class="text">Caption Text</div>
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="./Images/flyer1.jpeg" style="width:100%; height: 100%">
+                <div class="text"><p style="margin: 0; padding-top: 5px; font-size: x-large">Beautiful Exchange Every
+                    Thursday</p>
+                    <p style="margin: 0; padding-top: 10px">Join us! 333 New Lots Ave, Brooklyn NY 11207</p></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="./Images/flyer2.jpeg" style="width:100%; height: 100%">
+                <div class="text"><p style="margin: 0; padding-top: 10px; font-size: x-large">Saturday Night Live!</p>
+                    <p style="margin: 0; padding-top: 10px">Come turn up with our Youths</p></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="./Images/flyer3.jpeg" style="width:100%; height: 100%">
+                <div class="text"><p style="margin: 0; padding-top: 10px; font-size: x-large">Diving into Financial
+                    Literacy</p>
+                    <p style="margin: 0; padding-top: 10px">Come Learn How
+                        to deal with financial pressure</p></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="./Images/flyer4.JPG" style="width:100%; height: 100%">
+                <div class="text"><p style="margin: 0; padding-top: 10px; font-size: x-large">Join us! 333 New Lots Ave,
+                    Brooklyn NY 11207</p></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="./Images/flyer5.JPG" style="width:100%; height: 100%">
+                <div class="text"><p style="margin: 0; padding-top: 10px; font-size: x-large">Join us! 333 New Lots Ave,
+                    Brooklyn NY 11207</p></div>
+            </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+
+        </div>
     </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <img src="./Images/flyer2.JPG" style="width:100%; height: 100%">
-        <div class="text">Caption Two</div>
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <img src="./Images/flyer3.JPG" style="width:100%; height: 100%">
-        <div class="text">Caption Three</div>
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <img src="./Images/flyer4.JPG" style="width:100%; height: 100%">
-        <div class="text">Caption Four</div>
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext"></div>
-        <img src="./Images/flyer5.JPG" style="width:100%; height: 100%">
-        <div class="text">Caption Five</div>
-    </div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-
-</div>
-</div>
 </div>
 <script>
     var slideIndex = 0;
@@ -136,23 +147,25 @@
             slides[i].style.display = "none";
         }
         slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}
+        if (slideIndex > slides.length) {
+            slideIndex = 1
+        }
         for (i = 0; i < dots.length; i++) {
             dots[i].className = dots[i].className.replace(" active", "");
         }
-        slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
         setTimeout(showSlides, 3000); // Change image every 3 seconds
     }
 </script>
 
 
-
 <div class="Pastor_remarks">
     <p id="pastor_flick"><img src="./Images/Pastor's_flick.jpeg" alt="Pastor's Picture"></p>
     <p id="remarks">
-    <h2>Pastor's Remarks in anticipation</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipiscing elit
+    <h2 style="margin: 0; font-size: 30px; padding-bottom: 30px; color: #3d2e22">Pastor's Remarks in anticipation</h2>
+    <blockquote style="color: white; font-style: normal !important;"> Lorem ipsum dolor sit amet consectetur adipiscing
+        elit
         ultricies pretium nisi, cursus erat nulla convallis class litora cum
         massa bibendum, natoque non justo laoreet augue dui torquent eleifend
         semper. Sapien laoreet sollicitudin vivamus lacus facilisis eget diam
@@ -160,8 +173,8 @@
         montes, imperdiet cras nisi placerat purus sed congue mauris. Vitae
         nec cras vehicula neque vivamus gravida luctus natoque hendrerit
         habitasse parturient, viverra lacinia volutpat himenaeos vulputate
-        tempus faucibus potenti vestibulum porttitor.</p>
-    <p>Aliquet nunc metus diam dignissim nullam himenaeos, viverra
+        tempus faucibus potenti vestibulum porttitor.
+        Aliquet nunc metus diam dignissim nullam himenaeos, viverra
         blandit fringilla malesuada rutrum facilisi, senectus massa
         ullamcorper etiam luctus. At porttitor dignissim cras bibendum
         ullamcorper eleifend class arcu rhoncus varius a rutrum, donec
@@ -170,12 +183,16 @@
         malesuada augue aenean habitant tempus turpis. Nec et commodo
         suscipit eu conubia viverra taciti, porta tincidunt massa vulputate
         ac dis ultrices fringilla, egestas praesent montes laoreet tempor
-        neque.</p>
+        neque.
+        <footer>
+            <cite>Shola Jordan Adeoye</cite>
+        </footer>
+    </blockquote>
 
 
 </div>
 <!-------------------------------------------------------EVENTS---------------------------------------------------------------------->
-<div class="events" style="background-color: #222">
+<div class="events" style="background-color: #0a243e ">
 
     <table>
         <caption style="color: white; font-size: 200%">Weekly Events</caption>
@@ -207,25 +224,55 @@
             <td><span style="font-size: 18pt;">10:00 pm - 12:00 Midnight</span></td>
         </tr>
         <tr>
-            <td style="border-bottom: 1px solid #fff"><span style="font-size: 18pt;">Saturday Night Live ( Youth gathering ) : </span></td>
+            <td style="border-bottom: 1px solid #fff"><span style="font-size: 18pt;">Saturday Night Live ( Youth gathering ) : </span>
+            </td>
             <td style="border-bottom: 1px solid #fff"><span style="font-size: 18pt;">Saturdays </span></td>
             <td style="border-bottom: 1px solid #fff"><span style="font-size: 18pt;">05:00 pm - 07:00 pm</span></td>
         </tr>
         </tbody>
     </table>
-    <p><span style="font-size: 18pt;">  <br /></span></p>
-    <p><span style="font-size: 18pt;">  <br /></span></p>
-    <p><span style="font-size: 18pt;">  <br /></span></p>
-    <p><span style="font-size: 18pt;">  <br /></span></p>
     <p><span style="font-size: 18pt;"> </span></p>
-
 
 
 </div>
 
-<div class="prefooter">
-    <img src="Images/Facebook.ico" class="facebook_icon">
+<div class="pre_footer">
+    <div class="img">
+    <h2 style="color: #3d2e22; float: top; padding-bottom: 15px">Contact Us:</h2>
+    <ul>
+        <li>
+            <a href="https://www.facebook.com/lighthouseny/"><img src="Images/facebook.ico" class="pre_footer_icon"></a>
+        </li>
+        <li>
+            <a href="mailto:communications@lighthouseNY.org"><img src="Images/email.ico" class="pre_footer_icon"></a>
+        </li>
+        <li><a href=""><img src="Images/phone.ico" class="pre_footer_icon"></a>
+        </li>
+        <li><a href="https://google.com"><img src="Images/address.ico" class="pre_footer_icon"></a>
+        </li>
+    </ul>
+    </div>
+    <div class="caption">
+    <ul>
+        <li style="margin-right: 70px">
+            <p style="font-family: Open Sans, sans-serif;font-weight: 600;font-style: normal;font-size: 21px;  text-transform: uppercase;">
+                Follow Us!</p></li>
+        <li style="margin: 0; padding:0"><p
+                style="font-family: Open Sans, sans-serif;font-weight: 600;font-style: normal;font-size: 21px;  width: 50%; text-transform: uppercase;">
+            communications@ lighthouseNY.org
+        </p></li>
+        <li style="margin-right: 0; margin-left: 0"><p
+                style="text-transform: uppercase; font-family: Open Sans,sans-serif; font-size: 21px; font-style: normal; font-weight: 600;">
+            |405-550-5135|
+        </p>
+            <p style="font-size: 14px;color: #444444;">Our Phone Number</p></li>
 
+        <li style="margin-right: 0; margin-left: 0">
+            <p style="text-transform: uppercase; font-family: Open Sans,sans-serif; font-size: 21px; font-style: normal; font-weight: 600; width: 60%">
+                361 New Lots Ave. Brooklyn, NY 11207</p>
+            <p> Our address</p></li>
+    </ul>
+    </div>
 </div>
 </body>
 
@@ -240,7 +287,6 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-        <p id="footer">Copyright &copy; lighthouse1st.us</p>
     </div>
 </footer>
 

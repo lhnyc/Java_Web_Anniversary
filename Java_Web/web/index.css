@@ -6,7 +6,7 @@
 }
 
 header{
-    background: #a47c4c /*#55d6aa*/;
+    background: white /*#240707 /*darkorange /*3d2e22  #a47c4c #55d6aa*/;
     padding-bottom: 5px;
 
 }
@@ -39,22 +39,22 @@ header nav li{
 }
 
 header nav a{
-    color: #444;
+    color: #222;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
 }
 
 header nav a:hover{
-    color: #000;
+    opacity: .5;
 }
 
-nav a::before{
+header nav a::before{
     content: '';
     display: block;
     height: 5px;
     width: 0;
-    background-color: aliceblue;
+    background-color: indianred;
     position: absolute;
     top: 0;
     transition: all ease-in-out 250ms;
@@ -65,8 +65,8 @@ nav a:hover::before{
 }
 
 .clock{
-    padding: 60%;
-    background: rgba(0,0,0,0.5);;
+    padding: 5px;
+    background: rgba(0,0,0,0.5);
     color:white;
     font-weight: bold;
 }
@@ -103,14 +103,15 @@ th, td {
 .wrapper{
     width: 100%;
     margin: 0 auto;
+    padding-bottom: 40px;
 
 }
 
 footer{
     width: 100%;
-    background-color: #222;
-    padding: 20px 0;
-
+    background-color: white;
+    padding-bottom: 13px;
+    padding-top: 20px;
 }
 
 footer nav{
@@ -125,19 +126,20 @@ footer nav ul{
 footer nav li{
     display: inline-block;
     margin-left: 70px;
+    margin-right: 40px;
     padding-top: 10px;
     position: relative;
 }
 
 footer nav a{
-    color: #fff;
+    color: #222;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 10px;
 }
 
 footer nav a:hover{
-    color: whitesmoke;
+    font-style: normal !important;
 }
 
 #footer{
@@ -145,6 +147,16 @@ footer nav a:hover{
     float: left;
 }
 
+footer nav a::before{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0;
+    background-color: #0a243e;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 250ms;
+}
 
 
 
@@ -156,8 +168,8 @@ body{
     /*background-color: #3d2e22;*/
 }
 .Pastor_remarks{
-    background-color: whitesmoke;
-    padding-bottom: 12%;
+    background-color: darkorange;
+    padding-bottom: 35%;
     padding-top: 3%;
 }
 #pastor_flick{
@@ -166,10 +178,67 @@ body{
     padding-left: 30px;
     width: 50%;
     height: 70%;
-    padding-top: 0;
+    padding-top: 30px;
 
 }
-body div{
+blockquote {
+    display: block;
+    box-sizing: border-box;
+    float: right;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    width: 50%;
+}
+
+blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+    /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+    float:right;
+    font-size:80px;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+    color: #7a7a7a;
+    padding-right: 20px;
+    display: block;
+   /* display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;*/
+}
+blockquote footer{
+    background-color: darkorange;
+}
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquote cite:before {
+    content: "\2014 \2009";
 }
 
 body img{
@@ -179,7 +248,6 @@ body img{
 }
 #remarks{
     color: #3d2e22;
-    padding: 3%;
 }
 .top_slide{
     /*fixed center;*/
@@ -203,14 +271,26 @@ body img {vertical-align: middle;}
 
 /* Caption text */
 .text {
+    background-color: rgba(0, 0, 0, 0.7);
     color: #f2f2f2;
     font-size: 15px;
-    padding: 8px 12px;
+    padding: 40px 12px;
     position: absolute;
+    display: block;
     bottom: 8px;
     width: 100%;
-    text-align: end;
+    text-align: left;
+/*    -webkit-transition: -webkit-transform .6s ease-in-out;
+    -o-transition:      -o-transform .6s ease-in-out;
+    transition:         transform .6s ease-in-out;
+
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    */
 }
+
 
 /* Number text (1/3 etc) */
 .numbertext {
@@ -279,10 +359,76 @@ td{
 }
 
 /*------------------------------------------------------------PREFOOTER-----------------------------------------------------------------*/
-.prefooter{
-    background-color: white;
+.pre_footer{
+    background-color: darkorange;
+    padding: 15%;
 }
-.facebook_icon{
-    width: 50px;
-    height: 50px;
+
+#phone{
+    font-family: Open Sans,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 21px;
+    margin: 28px 0px 14px;
+    text-transform: uppercase;
+}
+#email{
+    font-family: Open Sans,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 21px;
+    margin: 28px 0px 14px;
+    text-transform: uppercase;
+}
+
+div.form fieldset div.field span.field-validation-error span {
+    background-color: #fae7ec;
+    display: block;
+    z-index: 10;
+    padding: 5px 10px;
+}
+div.form fieldset div.field span.field-validation-error {
+    font-family: "futura-pt-n4","futura-pt",Tahoma,Geneva,Verdana,Arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+    display: block;
+    background-color: #fae7ec;
+    border: 2px solid #ce1948;
+    padding: 0;
+    z-index: 10;
+    max-width: 500px;
+    width: 80%;
+    position: absolute;
+    left: 20%;
+    bottom: 53px;
+    box-sizing: border-box;
+}
+
+.pre_footer_icon{
+    width: 100px;
+    height: 100px;
+}
+
+.pre_footer ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.img li{
+    display: inline-block;
+    margin-right: 160px;
+    position: relative;
+}
+.caption li{
+    display: inline-block;
+    position: relative;
+}
+
+.pre_footer img:hover{
+    opacity: 0.5;
+    padding: 20%;
 }
