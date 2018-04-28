@@ -7,7 +7,6 @@
 
 header{
     background: white /*#240707 /*darkorange /*3d2e22  #a47c4c #55d6aa*/;
-    padding-bottom: 5px;
 
 }
 header::after{
@@ -24,7 +23,102 @@ header::after{
 header nav{
     float: right;
 }
+/*------------------------------------------------------CLOCK---------------------------------------------------------*/
 
+.clock_container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.font-cursive {
+    font-family: Lobster Two,cursive;
+}
+
+.clock-title {
+    font-size: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #0a243e;
+    border: none;
+    font-weight: 400;
+}
+
+.clock_digit {
+    display: -moz-inline-stack;
+    display: inline-block;
+    vertical-align: center;
+   /* *vertical-align:auto: ;*/
+    zoom: 1;
+    /**display:inline: ;*/
+    margin-right: 4px;
+}
+
+.clock_digit_number {
+    font-size: 50px;
+    padding: 3px 20px;
+    background: #38414a;
+    background: rgba(40,50,61,.62);
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+}
+
+.clock_label {
+    padding: 5px;
+    font-size: 15px;
+    color: #0a243e;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+.clock_container{
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+.clock_container ul{
+    list-style: none;
+    padding: 0;
+}
+
+.clock_container li{
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+   /* padding: 30px;
+}*/
 header nav ul{
     margin: 0;
     padding: 0;
@@ -32,7 +126,8 @@ header nav ul{
 }
 header nav li{
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 50px;
+    margin-top: 100px;
     padding-bottom: 20px;
     padding-top: 10px;
     position: relative;
@@ -47,9 +142,13 @@ header nav a{
 
 header nav a:hover{
     opacity: .5;
+    border: 2px solid darkorange;
+    transition: all ease-in-out 250ms;
+
 }
 
 header nav a::before{
+    /*
     content: '';
     display: block;
     height: 5px;
@@ -58,47 +157,18 @@ header nav a::before{
     position: absolute;
     top: 0;
     transition: all ease-in-out 250ms;
+    */
 }
 
 nav a:hover::before{
-    width: 100%;
-}
-
-.clock{
-    padding: 10%;
-    background: rgba(0,0,0,0.5);
-    color:white;
-    font-weight: bold;
-}
-p li{
-display: block;
-padding: 0;
-    float: top;
+  /*  width: 100%;*/
 }
 
 
 
 
-/*table{
-    background-color: black;
-    border: 1px solid #55d6aa;
-    border-collapse: collapse;
-    padding-left: 40px;
-    padding-bottom: 10px;
-}
-
-th, td {
-    color:white;
-    text-align: left;
-    background-color: black;
-    border: 1px solid #55d6aa;
-    border-collapse: collapse;
-    padding-left: 20px;
-    padding-right: 20px;
-}
 
 
-*/
 /*---------------Footer--------------------------*/
 .wrapper{
     width: 100%;
@@ -176,8 +246,8 @@ body{
     margin: 0;
     float: left;
     padding-left: 30px;
-    width: 50%;
-    height: 70%;
+    width: 200px;
+    height: 500px;
     padding-top: 30px;
 
 }

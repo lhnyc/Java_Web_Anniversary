@@ -52,21 +52,34 @@
             }, 1000);
         </script>
 
-        <nav>
 
-            <ul>
-                <p>
-                <li> Countdown to Anniversary</li>
-            </p>
-                <li><span class="clock" id="days"></span></li>
-                <li><span class="clock" id="hours"></span></li>
-                <li><span class="clock" id="minutes"></span></li>
-                <li><span class="clock" id="seconds"></span></li>
-
+        <div class="clock_container">
+                <h1 class="font-cursive clock-title"> Countdown to Anniversary</h1>
+            <div class="clock_digit">
+                <div class="clock_digit_number" id="days"></div>
+                <div class="clock_label">Days</div>
+            </div>
+            <div class="clock_digit">
+                <div class="clock_digit_number" id="hours"></div>
+                <div class="clock_label">hours</div>
+        </div>
+            <div class="clock_digit">
+                <div class="clock_digit_number" id="minutes"></div>
+                <div class="clock_label">minutes</div>
+            </div>
+            <div class="clock_digit">
+                <div class="clock_digit_number" id="seconds"></div>
+                <div class="clock_label">seconds</div>
+            </div>
+            </div>
+        </div>
+                <nav>
+                    <ul>
                 <li><a href="#" id="home">Home</a></li>
                 <li><a href="Events.jsp" id="events">Events</a></li>
+
                 <li><a href="#" id="donation">Donation</a></li>
-                <li><a href="#" id="contact">Contact</a></li>
+                <li style="margin-right: 20px"><a href="#" id="contact">Contact</a></li>
             </ul>
 
         </nav>
@@ -161,8 +174,8 @@
 
 
 <div class="Pastor_remarks">
-    <p id="pastor_flick"><img src="./Images/Pastor's_flick.jpeg" alt="Pastor's Picture"></p>
-    <p id="remarks">
+    <div id="pastor_flick"><img src="./Images/Pastor's_flick.jpeg" alt="Pastor's Picture"></div>
+    <div id="remarks">
     <h2 style="margin: 0; font-size: 30px; padding-bottom: 30px; color: #3d2e22">Pastor's Remarks in anticipation</h2>
     <blockquote style="color: white; font-style: normal !important;"> Lorem ipsum dolor sit amet consectetur adipiscing
         elit
@@ -188,7 +201,7 @@
             <cite>Shola Jordan Adeoye</cite>
         </footer>
     </blockquote>
-
+    </div>
 
 </div>
 <!-------------------------------------------------------EVENTS---------------------------------------------------------------------->
@@ -274,6 +287,7 @@
     </ul>
     </div>
 </div>
+
 </body>
 
 
